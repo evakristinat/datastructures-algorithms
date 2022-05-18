@@ -1,0 +1,23 @@
+{
+  "name": "scores",
+  "version": "1.0.0",
+  "description": "Data structure exercise",
+  "main": "dst1.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "tuito",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0"
+  }
+}

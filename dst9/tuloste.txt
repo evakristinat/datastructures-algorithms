@@ -1,0 +1,70 @@
+ Node {
+  compare: [Function: defaultComparator],
+  right: Node {
+    compare: [Function: defaultComparator],
+    right: null,
+    left: Node {
+      compare: [Function: defaultComparator],
+      right: [Node],
+      left: null,
+      value: 12
+    },
+    value: 23
+  },
+  left: Node {
+    compare: [Function: defaultComparator],
+    right: Node {
+      compare: [Function: defaultComparator],
+      right: null,
+      left: [Node],
+      value: 6
+    },
+    left: Node {
+      compare: [Function: defaultComparator],
+      right: null,
+      left: null,
+      value: 1
+    },
+    value: 2
+  },
+  value: 10
+}
+ 
+       10
+     /    \
+    2     23
+   / \    /
+  1  6  12
+    /    \
+   5     21
+
+
+Leveyshaku (breadth-first) hakee tuotetun puun nodet
+leveys- ja lukujärjestyksessä, eli rivi kerrallaan ja 
+vasemmalta oikealle. 
+Breadth-first search:
+10
+2
+23
+1
+6
+12
+5
+21
+
+Syvyyshaku (depth-first) hakee puun nodet syvyysjärjestyksessä,
+liikuen aina ylhäältä alaspäin vasemmalle suuntaavaa, eli pienenevää
+'oksaa' pitkin. Uuden haaran tunnistaa aina siitä, että luku ei 
+enää siis pienene. 
+Depth-first search:
+10
+2
+1
+6
+5
+23
+12
+21
+
+Haluaisin oppia tekemään testejä, joten tein
+mallin mukaan myös sen. 

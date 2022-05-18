@@ -1,0 +1,26 @@
+{
+  "name": "dst8",
+  "version": "1.0.0",
+  "description": "Data structure exercise",
+  "main": "dst8.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "tuito",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "graph-data-structure": "^1.13.0"
+  }
+}
